@@ -1,7 +1,7 @@
 <template>
-    <div class="row">
-        <div v-for="product in products" class="col-6 die" v-bind:style="{background: getRandomBackground()}">
-            {{ product.category_name }}
+    <div class="row text-success">
+        <div v-for="product in products" class="col-6 die" v-bind:style="{'background': 'url(https://parkoved1.joinposter.com' + product.photo + ')' + 'no-repeat center / cover'}">
+            {{ product.product_name }}
         </div>
     </div>
 </template>
@@ -39,6 +39,6 @@ export default {
 
 <style>
 .die {
-    height: 25vh;
+    height: 30vh;
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
-    <div class="row">
-        <div v-for="cat in categories" class="col-6 die" v-bind:style="{background: getRandomBackground()}">
-            <a :href="'cat/' + cat.category_id">{{ cat.category_name }}</a>
+    <div class="row text-success">
+        <div v-for="cat in categories" class="col-6 die" v-bind:style="{'background': 'url(https://parkoved1.joinposter.com' + cat.category_photo + ')' + 'no-repeat center / cover'}">
+            <a :href="'cat/' + cat.category_id" style='display: block; width: 100%; height: 100%; text-decoration: none; color: #28a745;'>{{ cat.category_name }}</a>
         </div>
     </div>
 </template>
@@ -39,6 +39,6 @@ export default {
 
 <style>
 .die {
-    height: 25vh;
+    height: 30vh;
 }
 </style>
