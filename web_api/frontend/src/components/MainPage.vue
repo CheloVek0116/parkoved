@@ -1,6 +1,14 @@
 <template>
-    <div id="app">
-        hello
+    <div>
     </div>
 </template>
+
+<script>
+export default {
+    name: 'main_page',
+    data() {
+        return {}
+    },
+}
+</script>
 

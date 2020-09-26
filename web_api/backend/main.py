@@ -55,8 +55,8 @@ def get_products(cat_id):
     return JP.get_products(cat_id)
 
 
-@app.route('/get_categories', endpoint='get_products')
-def get_products(cat_id):
+@app.route('/get_categories', endpoint='get_categories')
+def get_categories(cat_id):
     global JP
     q_params = dict(request.args)
     fiscal = 0
