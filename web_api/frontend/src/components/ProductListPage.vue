@@ -1,25 +1,25 @@
 <template>
     <div class="row">
-        <div v-for="cat in categories" class="col-6 die" v-bind:style="{background: getRandomBackground()}">
-            <a :href="'cat/' + cat.category_id">{{ cat.category_name }}</a>
+        <div v-for="product in products" class="col-6 die" v-bind:style="{background: getRandomBackground()}">
+            {{ product.category_name }}
         </div>
     </div>
 </template>
 
 <script>
 export default {
-    name: 'main_page',
+    name: 'attraction_list_page',
     data() {
         return {
-            categories: []
+            products: []
         }
     },
     methods: {
-        loadCategories() {
-            axios.get("http://192.168.0.5:5002/get_categories?fiscal=0")
+        loadProducts() {
+            axios.get("http://192.168.0.5:5002/get_products/" + this.$route.params.id)
                 .then(res => {
-                    this.categories = res.data.response
-                    console.log(this.categories)
+                    this.products = res.data.response
+                    console.log(this.products)
                 })
         },
         getRandomBackground() {
@@ -32,7 +32,7 @@ export default {
         }
     },
     mounted() {
-        this.loadCategories()
+        this.loadProducts()
     }
 }
 </script>

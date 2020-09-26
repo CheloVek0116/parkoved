@@ -56,7 +56,7 @@ def get_products(cat_id):
 
 
 @app.route('/get_categories', endpoint='get_categories')
-def get_categories(cat_id):
+def get_categories():
     global JP
     q_params = dict(request.args)
     fiscal = 0
@@ -67,4 +67,4 @@ def get_categories(cat_id):
 
 
 if __name__ == '__main__':
-    app.run(port=5002, debug=True, threaded=False)
+    app.run(host="0.0.0.0", port=5002, debug=True, threaded=False)

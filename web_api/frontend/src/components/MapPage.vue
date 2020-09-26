@@ -1,5 +1,6 @@
 <template>
-    <div id="map" style="width: 700px; height: 600px">
+    <div id="map" style="width: 100%; height: 95vh">
+        КАРТА
     </div>
 </template>
 
@@ -22,7 +23,7 @@ export default {
                     ]
                 }, {
                     searchControlProvider: 'yandex#search'
-                });
+                }),
                 myGeoObject = new ymaps.GeoObject({
                     // Описание геометрии.
                     geometry: {
