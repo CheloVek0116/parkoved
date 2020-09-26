@@ -34,3 +34,1160 @@ INFO:root:Бот стартовал
 INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
 INFO:root:Бот стартовал
 INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:root:Бот стартовал
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:root:Бот стартовал
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+TypeError: inline_menu() takes 0 positional arguments but 2 were given
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+TypeError: inline_menu() takes 0 positional arguments but 2 were given
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+TypeError: inline_menu() takes 0 positional arguments but 2 were given
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:root:Бот стартовал
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+TypeError: menu() takes 0 positional arguments but 2 were given
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+TypeError: menu() takes 0 positional arguments but 2 were given
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:root:Бот стартовал
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "/Users/admin/projects/parkoved/business.py", line 23, in menu
+    update.message.reply_text(reply_markup=inline_menu())
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/message.py", line 515, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+TypeError: send_message() missing 1 required positional argument: 'text'
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "/Users/admin/projects/parkoved/business.py", line 23, in menu
+    update.message.reply_text(reply_markup=inline_menu())
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/message.py", line 515, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+TypeError: send_message() missing 1 required positional argument: 'text'
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "/Users/admin/projects/parkoved/business.py", line 23, in menu
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/message.py", line 515, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+TypeError: send_message() missing 1 required positional argument: 'text'
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:root:Бот стартовал
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 16, in menu
+    update.message.reply_text('Меню',reply_markup=inline_menu())
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/message.py", line 515, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 348, in send_message
+    timeout=timeout, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 175, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 244, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse inline keyboard button: field "callback_data" must be of type string
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 16, in menu
+    update.message.reply_text('Меню',reply_markup=inline_menu())
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/message.py", line 515, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 348, in send_message
+    timeout=timeout, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 175, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 244, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse inline keyboard button: field "callback_data" must be of type string
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 16, in menu
+    update.message.reply_text('Меню',reply_markup=inline_menu())
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/message.py", line 515, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 348, in send_message
+    timeout=timeout, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 175, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 244, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse inline keyboard button: field "callback_data" must be of type string
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 16, in menu
+    update.message.reply_text('Меню',reply_markup=inline_menu())
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/message.py", line 515, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 348, in send_message
+    timeout=timeout, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 175, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 244, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse inline keyboard button: field "callback_data" must be of type string
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 16, in menu
+    update.message.reply_text('Меню',reply_markup=inline_menu())
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/message.py", line 515, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 348, in send_message
+    timeout=timeout, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 175, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 244, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse inline keyboard button: field "callback_data" must be of type string
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:root:Бот стартовал
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 16, in menu
+    context.bot.send_message('Меню',reply_markup=inline_menu())
+TypeError: send_message() missing 1 required positional argument: 'text'
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:root:Бот стартовал
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 16, in menu
+    context.bot.send_message('Меню',reply_markup=inline_menu())
+TypeError: send_message() missing 1 required positional argument: 'text'
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 16, in menu
+    context.bot.send_message('Меню',reply_markup=inline_menu())
+TypeError: send_message() missing 1 required positional argument: 'text'
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 16, in menu
+    context.bot.send_message('Меню',reply_markup=inline_menu())
+TypeError: send_message() missing 1 required positional argument: 'text'
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:root:Бот стартовал
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 16, in menu
+    update.message.reply_markup(reply_markup=inline_menu())
+TypeError: 'NoneType' object is not callable
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 16, in menu
+    update.message.reply_markup(reply_markup=inline_menu())
+TypeError: 'NoneType' object is not callable
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:root:Бот стартовал
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 16, in menu
+    update.message.reply_markup(inline_menu())
+TypeError: 'NoneType' object is not callable
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:root:Бот стартовал
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:root:Бот стартовал
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 15, in menu
+    update.message.reply_text('Вот меню', reply_markup=inline_menu())
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/message.py", line 515, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 348, in send_message
+    timeout=timeout, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 175, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 244, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse inline keyboard button: field "callback_data" must be of type string
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:root:Бот стартовал
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 15, in menu
+    update.message.reply_text('Вот меню', reply_markup=inline_menu(keyboard))
+NameError: name 'keyboard' is not defined
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:root:Бот стартовал
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:root:Бот стартовал
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 16, in menu
+    update.message.reply_text('Вот меню', reply_markup=inline_menu_keyboard())
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/message.py", line 515, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 348, in send_message
+    timeout=timeout, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 175, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 244, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse inline keyboard button: field "callback_data" must be of type string
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:root:Бот стартовал
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 16, in menu
+    update.message.reply_text('Вот меню', reply_markup=inline_menu_keyboard())
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/message.py", line 515, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 348, in send_message
+    timeout=timeout, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 175, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 244, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:root:Бот стартовал
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 16, in menu
+    update.message.reply_text('Вот меню', reply_markup=inline_menu_keyboard())
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/message.py", line 515, in reply_text
+    return self.bot.send_message(self.chat_id, *args, **kwargs)
+  File "<decorator-gen-2>", line 2, in send_message
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 348, in send_message
+    timeout=timeout, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 175, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 244, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:root:Бот стартовал
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:root:Бот стартовал
+WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x10d159ba8>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known')': /bot1308072242:AAE72OLIgP-150Rqlz-tjhPi6bNR0Hii3x0/getUpdates
+WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x10d159860>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known')': /bot1308072242:AAE72OLIgP-150Rqlz-tjhPi6bNR0Hii3x0/getUpdates
+WARNING:telegram.vendor.ptb_urllib3.urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x10d159c88>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known')': /bot1308072242:AAE72OLIgP-150Rqlz-tjhPi6bNR0Hii3x0/getUpdates
+ERROR:telegram.ext.updater:Error while getting Updates: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1308072242:AAE72OLIgP-150Rqlz-tjhPi6bNR0Hii3x0/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x10d159e10>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/vendor/ptb_urllib3/urllib3/connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/vendor/ptb_urllib3/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 748, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 617, in urlopen
+    chunked=chunked)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/vendor/ptb_urllib3/urllib3/connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/vendor/ptb_urllib3/urllib3/connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+telegram.vendor.ptb_urllib3.urllib3.exceptions.NewConnectionError: <telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x10d159e10>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 224, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 70, in request
+    **urlopen_kw)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/vendor/ptb_urllib3/urllib3/poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 695, in urlopen
+    **response_kw)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 666, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/vendor/ptb_urllib3/urllib3/util/retry.py", line 376, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1308072242:AAE72OLIgP-150Rqlz-tjhPi6bNR0Hii3x0/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x10d159e10>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/updater.py", line 379, in _network_loop_retry
+    if not action_cb():
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/updater.py", line 340, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 2138, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 230, in _request_wrapper
+    raise NetworkError('urllib3 HTTPError {}'.format(error))
+telegram.error.NetworkError: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1308072242:AAE72OLIgP-150Rqlz-tjhPi6bNR0Hii3x0/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x10d159e10>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:root:Бот стартовал
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 27, in cafe_choice
+    update.callback_query.edit_message_caption(caption=text)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/callbackquery.py", line 173, in edit_message_caption
+    *args, **kwargs)
+  File "<decorator-gen-28>", line 2, in edit_message_caption
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 1962, in edit_message_caption
+    return self._message(url, data, timeout=timeout, reply_markup=reply_markup, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 175, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 244, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: There is no caption in the message to edit
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 27, in cafe_choice
+    update.callback_query.edit_message_caption(caption=text)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/callbackquery.py", line 173, in edit_message_caption
+    *args, **kwargs)
+  File "<decorator-gen-28>", line 2, in edit_message_caption
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 1962, in edit_message_caption
+    return self._message(url, data, timeout=timeout, reply_markup=reply_markup, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 175, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 244, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: There is no caption in the message to edit
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 27, in cafe_choice
+    update.callback_query.edit_message_caption(caption=text)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/callbackquery.py", line 173, in edit_message_caption
+    *args, **kwargs)
+  File "<decorator-gen-28>", line 2, in edit_message_caption
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 1962, in edit_message_caption
+    return self._message(url, data, timeout=timeout, reply_markup=reply_markup, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 175, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 244, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: There is no caption in the message to edit
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 27, in cafe_choice
+    update.callback_query.edit_message_caption(caption=text)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/callbackquery.py", line 173, in edit_message_caption
+    *args, **kwargs)
+  File "<decorator-gen-28>", line 2, in edit_message_caption
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 1962, in edit_message_caption
+    return self._message(url, data, timeout=timeout, reply_markup=reply_markup, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 175, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 244, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: There is no caption in the message to edit
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 27, in cafe_choice
+    update.callback_query.edit_message_caption(caption=text)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/callbackquery.py", line 173, in edit_message_caption
+    *args, **kwargs)
+  File "<decorator-gen-28>", line 2, in edit_message_caption
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 1962, in edit_message_caption
+    return self._message(url, data, timeout=timeout, reply_markup=reply_markup, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 175, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 244, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: There is no caption in the message to edit
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 27, in cafe_choice
+    update.callback_query.edit_message_caption(caption=text)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/callbackquery.py", line 173, in edit_message_caption
+    *args, **kwargs)
+  File "<decorator-gen-28>", line 2, in edit_message_caption
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 1962, in edit_message_caption
+    return self._message(url, data, timeout=timeout, reply_markup=reply_markup, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 175, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 244, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: There is no caption in the message to edit
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 27, in cafe_choice
+    update.callback_query.edit_message_caption(caption=text)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/callbackquery.py", line 173, in edit_message_caption
+    *args, **kwargs)
+  File "<decorator-gen-28>", line 2, in edit_message_caption
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 1962, in edit_message_caption
+    return self._message(url, data, timeout=timeout, reply_markup=reply_markup, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 175, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 244, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: There is no caption in the message to edit
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 27, in cafe_choice
+    update.callback_query.edit_message_caption(caption=text)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/callbackquery.py", line 173, in edit_message_caption
+    *args, **kwargs)
+  File "<decorator-gen-28>", line 2, in edit_message_caption
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 1962, in edit_message_caption
+    return self._message(url, data, timeout=timeout, reply_markup=reply_markup, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 175, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 244, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: There is no caption in the message to edit
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 27, in cafe_choice
+    update.callback_query.edit_message_caption(caption=text)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/callbackquery.py", line 173, in edit_message_caption
+    *args, **kwargs)
+  File "<decorator-gen-28>", line 2, in edit_message_caption
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 1962, in edit_message_caption
+    return self._message(url, data, timeout=timeout, reply_markup=reply_markup, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 175, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 244, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: There is no caption in the message to edit
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 27, in cafe_choice
+    update.callback_query.edit_message_caption(caption=text)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/callbackquery.py", line 173, in edit_message_caption
+    *args, **kwargs)
+  File "<decorator-gen-28>", line 2, in edit_message_caption
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 1962, in edit_message_caption
+    return self._message(url, data, timeout=timeout, reply_markup=reply_markup, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 175, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 244, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: There is no caption in the message to edit
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 27, in cafe_choice
+    update.callback_query.edit_message_caption(caption=text)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/callbackquery.py", line 173, in edit_message_caption
+    *args, **kwargs)
+  File "<decorator-gen-28>", line 2, in edit_message_caption
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 1962, in edit_message_caption
+    return self._message(url, data, timeout=timeout, reply_markup=reply_markup, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 175, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 244, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: There is no caption in the message to edit
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:root:Бот стартовал
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 27, in cafe_choice
+    update.callback_query.edit_message_caption(caption=text)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/callbackquery.py", line 173, in edit_message_caption
+    *args, **kwargs)
+  File "<decorator-gen-28>", line 2, in edit_message_caption
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 1962, in edit_message_caption
+    return self._message(url, data, timeout=timeout, reply_markup=reply_markup, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 175, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 244, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: There is no caption in the message to edit
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 27, in cafe_choice
+    update.callback_query.edit_message_caption(caption=text)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/callbackquery.py", line 173, in edit_message_caption
+    *args, **kwargs)
+  File "<decorator-gen-28>", line 2, in edit_message_caption
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 1962, in edit_message_caption
+    return self._message(url, data, timeout=timeout, reply_markup=reply_markup, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 175, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 244, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: There is no caption in the message to edit
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 27, in cafe_choice
+    update.callback_query.edit_message_caption(caption=text)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/callbackquery.py", line 173, in edit_message_caption
+    *args, **kwargs)
+  File "<decorator-gen-28>", line 2, in edit_message_caption
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 1962, in edit_message_caption
+    return self._message(url, data, timeout=timeout, reply_markup=reply_markup, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 175, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 244, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: There is no caption in the message to edit
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 27, in cafe_choice
+    update.callback_query.edit_message_caption(caption=text)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/callbackquery.py", line 173, in edit_message_caption
+    *args, **kwargs)
+  File "<decorator-gen-28>", line 2, in edit_message_caption
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 1962, in edit_message_caption
+    return self._message(url, data, timeout=timeout, reply_markup=reply_markup, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 175, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 244, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: There is no caption in the message to edit
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 27, in cafe_choice
+    update.callback_query.edit_message_caption(caption=text)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/callbackquery.py", line 173, in edit_message_caption
+    *args, **kwargs)
+  File "<decorator-gen-28>", line 2, in edit_message_caption
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 1962, in edit_message_caption
+    return self._message(url, data, timeout=timeout, reply_markup=reply_markup, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 175, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 244, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: There is no caption in the message to edit
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 27, in cafe_choice
+    update.callback_query.edit_message_caption(caption=text)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/callbackquery.py", line 173, in edit_message_caption
+    *args, **kwargs)
+  File "<decorator-gen-28>", line 2, in edit_message_caption
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 1962, in edit_message_caption
+    return self._message(url, data, timeout=timeout, reply_markup=reply_markup, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 175, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 244, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: There is no caption in the message to edit
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 27, in cafe_choice
+    update.callback_query.edit_message_caption(caption=text)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/callbackquery.py", line 173, in edit_message_caption
+    *args, **kwargs)
+  File "<decorator-gen-28>", line 2, in edit_message_caption
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 1962, in edit_message_caption
+    return self._message(url, data, timeout=timeout, reply_markup=reply_markup, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 175, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 244, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: There is no caption in the message to edit
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 27, in cafe_choice
+    update.callback_query.edit_message_caption(caption=text)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/callbackquery.py", line 173, in edit_message_caption
+    *args, **kwargs)
+  File "<decorator-gen-28>", line 2, in edit_message_caption
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 1962, in edit_message_caption
+    return self._message(url, data, timeout=timeout, reply_markup=reply_markup, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 175, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 244, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: There is no caption in the message to edit
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 27, in cafe_choice
+    update.callback_query.edit_message_caption(caption=text)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/callbackquery.py", line 173, in edit_message_caption
+    *args, **kwargs)
+  File "<decorator-gen-28>", line 2, in edit_message_caption
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 1962, in edit_message_caption
+    return self._message(url, data, timeout=timeout, reply_markup=reply_markup, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 175, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 244, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: There is no caption in the message to edit
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:root:Бот стартовал
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 27, in cafe_choice
+    update.callback_query.edit_message_caption(caption=text)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/callbackquery.py", line 173, in edit_message_caption
+    *args, **kwargs)
+  File "<decorator-gen-28>", line 2, in edit_message_caption
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 1962, in edit_message_caption
+    return self._message(url, data, timeout=timeout, reply_markup=reply_markup, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 175, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 244, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: There is no caption in the message to edit
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:root:Бот стартовал
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 27, in cafe_choice
+    update.message.reply_text(text)
+AttributeError: 'NoneType' object has no attribute 'reply_text'
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 27, in cafe_choice
+    update.message.reply_text(text)
+AttributeError: 'NoneType' object has no attribute 'reply_text'
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:root:Бот стартовал
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:root:Бот стартовал
+ERROR:telegram.ext.updater:Error while getting Updates: Conflict: terminated by setWebhook request
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/updater.py", line 379, in _network_loop_retry
+    if not action_cb():
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/updater.py", line 340, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 2138, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 248, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by setWebhook request
+ERROR:telegram.ext.updater:Error while getting Updates: Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/updater.py", line 379, in _network_loop_retry
+    if not action_cb():
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/updater.py", line 340, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 2138, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 248, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+ERROR:telegram.ext.updater:Error while getting Updates: Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/updater.py", line 379, in _network_loop_retry
+    if not action_cb():
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/updater.py", line 340, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 2138, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 248, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+ERROR:telegram.ext.updater:Error while getting Updates: Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/updater.py", line 379, in _network_loop_retry
+    if not action_cb():
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/updater.py", line 340, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 2138, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 248, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+ERROR:telegram.ext.updater:Error while getting Updates: Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/updater.py", line 379, in _network_loop_retry
+    if not action_cb():
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/updater.py", line 340, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 2138, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 248, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+ERROR:telegram.ext.updater:Error while getting Updates: Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/updater.py", line 379, in _network_loop_retry
+    if not action_cb():
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/updater.py", line 340, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 2138, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 248, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+ERROR:telegram.ext.updater:Error while getting Updates: Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/updater.py", line 379, in _network_loop_retry
+    if not action_cb():
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/updater.py", line 340, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 2138, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 248, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+ERROR:telegram.ext.updater:Error while getting Updates: Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/updater.py", line 379, in _network_loop_retry
+    if not action_cb():
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/updater.py", line 340, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 2138, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 248, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+ERROR:telegram.ext.updater:Error while getting Updates: Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/updater.py", line 379, in _network_loop_retry
+    if not action_cb():
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/updater.py", line 340, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 2138, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 248, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+ERROR:telegram.ext.updater:Error while getting Updates: Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/updater.py", line 379, in _network_loop_retry
+    if not action_cb():
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/updater.py", line 340, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 2138, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 248, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+ERROR:telegram.ext.updater:Error while getting Updates: Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/updater.py", line 379, in _network_loop_retry
+    if not action_cb():
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/updater.py", line 340, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 2138, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 248, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+ERROR:telegram.ext.updater:Error while getting Updates: Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/updater.py", line 379, in _network_loop_retry
+    if not action_cb():
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/updater.py", line 340, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 2138, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 248, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+ERROR:telegram.ext.updater:Error while getting Updates: Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/updater.py", line 379, in _network_loop_retry
+    if not action_cb():
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/updater.py", line 340, in polling_action_cb
+    allowed_updates=allowed_updates)
+  File "<decorator-gen-31>", line 2, in get_updates
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 2138, in get_updates
+    result = self._request.post(url, data, timeout=float(read_latency) + float(timeout))
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 333, in post
+    **urlopen_kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 248, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...

@@ -6,3 +6,8 @@ def second_keyboard():
         ['Купить из кафе'], ['Купить билет на Аттракцион'],
     ], resize_keyboard=True)
 
+
+    
+
+
+    
