@@ -1,7 +1,6 @@
 <template>
     <div class="row text-success">
         <div v-for="product in products" class="col-6 die" v-bind:style="{'background': 'url(https://parkoved1.joinposter.com' + product.photo + ')' + 'no-repeat center / cover'}">
-            {{ product.product_name }}
         </div>
     </div>
 </template>
@@ -16,7 +15,7 @@ export default {
     },
     methods: {
         loadProducts() {
-            axios.get("http://192.168.0.5:5002/get_products/" + this.$route.params.id)
+            axios.get("http://31.31.202.226:5002/get_products/" + this.$route.params.id)
                 .then(res => {
                     this.products = res.data.response
                     console.log(this.products)

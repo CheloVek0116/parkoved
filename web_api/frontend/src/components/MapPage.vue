@@ -1,6 +1,5 @@
 <template>
     <div id="map" style="width: 100%; height: 95vh">
-        КАРТА
     </div>
 </template>
 

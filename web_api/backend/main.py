@@ -27,7 +27,7 @@ def jp_auth():
 
         params = {
             'application_id': APP_ID,
-            'redirect_uri': 'http://localhost:5002/jp_auth',
+            'redirect_uri': 'http://31.31.202.226:5002/jp_auth',
         }
 
         if 'code' in q_params:
