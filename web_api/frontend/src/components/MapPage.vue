@@ -10,8 +10,9 @@ export default {
         return {}
     },
     methods: {
-        placemark(coords, name, link) {
+        placemark(coords, name, link, productLink='', productName='') {
             return new ymaps.Placemark(coords, {
+                balloonContent:  productLink ? `<a href="${productLink}" target="_blank">${productName}</a>` : null,
                 hintContent: name,
             }, {
                 // Опции.
@@ -39,12 +40,38 @@ export default {
                 }, {
                     searchControlProvider: 'yandex#search'
                 });
-                let toilet = this.placemark([57.91580680, 60.11238514], 'Туалет!', 'https://img.icons8.com/doodle/2x/toilet-paper.png');
-                let carousel = this.placemark([57.91639024, 60.11259783], 'Карусель!', 'https://img.icons8.com/doodle/2x/carousel--v1.png');
-                let carousel1 = this.placemark([57.91600770, 60.11237252], 'Карусель!', 'https://img.icons8.com/doodle/2x/carousel--v1.png');
-                let carousel2 = this.placemark([57.91678419, 60.11350171], 'Колесо обозрения!', 'https://img.icons8.com/doodle/2x/theme-park.png');
-                let cafe = this.placemark([57.91767200, 60.11373238], 'Кафе!', 'https://img.icons8.com/doodle/2x/cafe--v1.png');
-                let cafe1 = this.placemark([57.91864542, 60.11439756], 'Кафе!', 'https://img.icons8.com/doodle/2x/cafe--v1.png');
+                let toilet = this.placemark([57.91799071, 60.11453981], 'Туалет!', 'https://img.icons8.com/doodle/2x/toilet-paper.png');
+                let carousel = this.placemark(
+                    [57.91639024, 60.11259783],
+                    'Лошадки!',
+                    'https://img.icons8.com/doodle/2x/carousel--v1.png',
+                    'http://31.31.202.226:8080/product/9',
+                    'Лошадки!',
+                );
+                let carousel1 = this.placemark(
+                    [57.91600770, 60.11237252],
+                    'Машинки!',
+                    'https://img.icons8.com/doodle/2x/carousel--v1.png',
+                    'http://31.31.202.226:8080/product/7',
+                    'Машинки!',
+                );
+                let carousel2 = this.placemark(
+                    [57.91678419, 60.11350171],
+                    'Колесо обозрения!',
+                    'https://img.icons8.com/doodle/2x/theme-park.png',
+                    'http://31.31.202.226:8080/product/8',
+                    'Колесо обозрения!',
+                );
+                let cafe = this.placemark(
+                    [57.91767200, 60.11373238],
+                    'Кафе!',
+                    'https://img.icons8.com/doodle/2x/cafe--v1.png'
+                );
+                let cafe1 = this.placemark(
+                    [57.91864542, 60.11439756],
+                    'Кафе!',
+                    'https://img.icons8.com/doodle/2x/cafe--v1.png'
+                );
                 my_map.geoObjects.add(toilet);
                 my_map.geoObjects.add(carousel);
                 my_map.geoObjects.add(carousel1);

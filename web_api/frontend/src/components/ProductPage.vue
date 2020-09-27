@@ -2,7 +2,7 @@
     <div class="row product-title">
         <div class="col d-flex align-items-end" v-bind:style="getProductBG(product.photo)">
             <p class="product_title__title">{{product.product_name}}</p>
-            <p class="product_title__price">{{product.price["1"]}}</p>
+            <p class="product_title__price">{{product.price["1"].slice(0, -2)}}.{{product.price["1"].slice(-2)}} у.е.</p>
         </div>
     </div>
 </template>

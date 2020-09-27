@@ -14,7 +14,7 @@
                 <a class="nav-link" href="/map">Карта</a>
               </li>
               <li class="nav-item p-3 active">
-                <a class="nav-link" href="/">Главная</a>
+                <a class="nav-link" href="/">Покупки</a>
               </li>
             </ul>
             <!-- Links -->
