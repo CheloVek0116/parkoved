@@ -1191,3 +1191,183 @@ Traceback (most recent call last):
     raise Conflict(message)
 telegram.error.Conflict: Conflict: can't use getUpdates method while webhook is active; use deleteWebhook to delete the webhook first
 INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:root:Бот стартовал
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:root:Бот стартовал
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 29, in cafe_choice
+    update.message.reply_text('Вы выбрали курицу')
+AttributeError: 'NoneType' object has no attribute 'reply_text'
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:root:Бот стартовал
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:root:Бот стартовал
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:root:Бот стартовал
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 30, in cafe_choice
+    update.message.reply_text("Вы выбрали курицу")
+AttributeError: 'NoneType' object has no attribute 'reply_text'
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:root:Бот стартовал
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 27, in cafe_choice
+    query.edit_message_text(text=f"Вы выбрали: {query.data}", reply_markup=ReplyKeyboardRemove)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/callbackquery.py", line 145, in edit_message_text
+    message_id=self.message.message_id, *args, **kwargs)
+  File "<decorator-gen-27>", line 2, in edit_message_text
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 1898, in edit_message_text
+    return self._message(url, data, timeout=timeout, reply_markup=reply_markup, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 175, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 331, in post
+    body=json.dumps(data).encode('utf-8'),
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type type is not JSON serializable
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 27, in cafe_choice
+    query.edit_message_text(text=f"Вы выбрали: {query.data}", reply_markup=ReplyKeyboardRemove)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/callbackquery.py", line 145, in edit_message_text
+    message_id=self.message.message_id, *args, **kwargs)
+  File "<decorator-gen-27>", line 2, in edit_message_text
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 1898, in edit_message_text
+    return self._message(url, data, timeout=timeout, reply_markup=reply_markup, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 175, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 331, in post
+    body=json.dumps(data).encode('utf-8'),
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type type is not JSON serializable
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 27, in cafe_choice
+    query.edit_message_text(text=f"Вы выбрали: {query.data}", reply_markup=ReplyKeyboardRemove)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/callbackquery.py", line 145, in edit_message_text
+    message_id=self.message.message_id, *args, **kwargs)
+  File "<decorator-gen-27>", line 2, in edit_message_text
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 1898, in edit_message_text
+    return self._message(url, data, timeout=timeout, reply_markup=reply_markup, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 175, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 331, in post
+    body=json.dumps(data).encode('utf-8'),
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type type is not JSON serializable
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 27, in cafe_choice
+    query.edit_message_text(text=f"Вы выбрали: {query.data}", reply_markup=ReplyKeyboardRemove)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/callbackquery.py", line 145, in edit_message_text
+    message_id=self.message.message_id, *args, **kwargs)
+  File "<decorator-gen-27>", line 2, in edit_message_text
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 1898, in edit_message_text
+    return self._message(url, data, timeout=timeout, reply_markup=reply_markup, **kwargs)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/bot.py", line 175, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/utils/request.py", line 331, in post
+    body=json.dumps(data).encode('utf-8'),
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type type is not JSON serializable
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:root:Бот стартовал
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:root:Бот стартовал
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:root:Бот стартовал
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:root:Бот стартовал
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:root:Бот стартовал
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 26, in cafe_choice
+    update.message.reply_markup = ReplyKeyboardRemove
+AttributeError: 'NoneType' object has no attribute 'reply_markup'
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/dispatcher.py", line 340, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/admin/projects/parkoved/env/lib/python3.7/site-packages/telegram/ext/handler.py", line 119, in handle_update
+    return self.callback(update, context)
+  File "main.py", line 26, in cafe_choice
+    update.message.reply_markup = ReplyKeyboardRemove
+AttributeError: 'NoneType' object has no attribute 'reply_markup'
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:root:Бот стартовал
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:root:Бот стартовал
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:root:Бот стартовал
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:root:Бот стартовал
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:root:Бот стартовал
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...

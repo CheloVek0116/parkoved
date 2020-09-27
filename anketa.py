@@ -2,6 +2,7 @@ from telegram import ReplyKeyboardMarkup, ReplyKeyboardRemove
 from telegram.ext import ConversationHandler
 from business import second_keyboard
 
+
 def anketa_start(update, context):
     update.message.reply_text(
         "Введите ФИО в формате - Иванов Иван Иваныч",
@@ -42,7 +43,6 @@ def format_anketa(anketa):
                  "email": anketa['email']  
                  }
     return full_info
-
 
 
 def anketa_skip(update, context):
