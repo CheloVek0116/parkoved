@@ -74,4 +74,25 @@
         color: #fff;
         background: rgba(10, 10, 10, .5);
     }
+    & div {
+        display: contents;
+    }
+    & .product_title__button {
+        text-align: center;
+        width: 40%;
+        display: block;
+        padding: 1em;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+        color: #fff;
+        text-decoration: none;
+        background: #33CCFF;
+        transition: .8s;
+        border-radius: 20px;
+    }
+    & .product_title__button:hover, .product_title__button:active {
+        background: #00FFFF;
+        border-radius: 25px;
+        color: #222;
+    }
 }
