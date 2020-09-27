@@ -22,29 +22,7 @@ export default {
                     ]
                 }, {
                     searchControlProvider: 'yandex#search'
-                }),
-                myGeoObject = new ymaps.GeoObject({
-                    // Описание геометрии.
-                    geometry: {
-                        type: "Point",
-                        coordinates: [57.91685805, 60.11346185]
-                    },
-                    // Свойства.
-                    properties: {
-                        // Контент метки.
-                        iconContent: 'Я тащусь',
-                        hintContent: 'Ну давай уже тащи'
-                    }
-                }, {
-                    // Опции.
-                    // Иконка метки будет растягиваться под размер ее содержимого.
-                    preset: 'islands#blackStretchyIcon',
-                    // Метку можно перемещать.
-                    draggable: true
                 });
-                my_map.geoObjects
-                    .add(myGeoObject);
-
 
             });
         }

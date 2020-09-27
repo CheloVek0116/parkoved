@@ -54,6 +54,12 @@ def get_products(cat_id):
     global JP
     return JP.get_products(cat_id)
 
+@app.route('/get_product/<product_id>', endpoint='get_product')
+def get_products(product_id):
+    global JP
+    return JP.get_product(product_id)
+
+
 
 @app.route('/get_categories', endpoint='get_categories')
 def get_categories():

@@ -1,13 +1,14 @@
 <template>
-    <div class="row text-success">
-        <div v-for="product in products" class="col-6 die" v-bind:style="{'background': 'url(https://parkoved1.joinposter.com' + product.photo + ')' + 'no-repeat center / cover'}">
+    <div class="row">
+        <div v-for="product in products" class="col-6 p-0 die" v-bind:style="getProductBG(product.photo)">
+            <a :href="'/product/' + product.product_id">{{product.product_name}}</a>
         </div>
     </div>
 </template>
 
 <script>
 export default {
-    name: 'attraction_list_page',
+    name: 'product_list_page',
     data() {
         return {
             products: []
@@ -21,13 +22,9 @@ export default {
                     console.log(this.products)
                 })
         },
-        getRandomBackground() {
-          var letters = '0123456789ABCDEF';
-          var color = '#';
-          for (var i = 0; i < 6; i++) {
-            color += letters[Math.floor(Math.random() * 16)];
-          }
-          return color;
+        getProductBG(product_photo) {
+          let default_url = 'https://parkoved1.joinposter.com';
+          return 'background: url(https://parkoved1.joinposter.com' + product_photo + '?' + parseInt(new Date().getTime()/1000) + ') no-repeat center / cover';
         }
     },
     mounted() {
@@ -35,9 +32,3 @@ export default {
     }
 }
 </script>
-
-<style>
-.die {
-    height: 30vh;
-}
-</style>

@@ -17,6 +17,7 @@ class CLIENT_ACTIONS(Enum):
 
 class MENU_ACTIONS(Enum):
     GET_PRODUCTS = f'{MENU_URL}getProducts'
+    GET_PRODUCT = f'{MENU_URL}getProduct'
     GET_CATEGORIES = f'{MENU_URL}getCategories'
 
 
@@ -44,6 +45,15 @@ class JPApi:
             'category_id': cat_id
         }
         url = self.get_url(MENU_ACTIONS.GET_PRODUCTS.value, params)
+        res = requests.get(url).json()
+        return res
+
+    def get_product(self, product_id: int):
+        params = {
+            'token': self.token,
+            'product_id': product_id
+        }
+        url = self.get_url(MENU_ACTIONS.GET_PRODUCT.value, params)
         res = requests.get(url).json()
         return res
 

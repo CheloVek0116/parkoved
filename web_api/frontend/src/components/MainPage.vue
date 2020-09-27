@@ -1,7 +1,7 @@
 <template>
-    <div class="row text-success">
-        <div v-for="cat in categories" class="col-6 die" v-bind:style="getCatBG(cat.category_photo)">
-            <a :href="'cat/' + cat.category_id" style='display: block; width: 100%; height: 100%; text-decoration: none; color: #28a745;'></a>
+    <div class="row">
+        <div v-for="cat in categories" class="col-6 p-0 die" v-bind:style="getCatBG(cat.category_photo)">
+            <a :href="'/cat/' + cat.category_id">{{cat.category_name}}</a>
         </div>
     </div>
 </template>
@@ -33,8 +33,3 @@ export default {
 }
 </script>
 
-<style>
-.die {
-    height: 30vh;
-}
-</style>
