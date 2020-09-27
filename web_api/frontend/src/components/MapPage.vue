@@ -10,8 +10,24 @@ export default {
         return {}
     },
     methods: {
+        placemark(coords, name, link) {
+            return new ymaps.Placemark(coords, {
+                hintContent: name,
+            }, {
+                // Опции.
+                // Необходимо указать данный тип макета.
+                iconLayout: 'default#image',
+                // Своё изображение иконки метки.
+                iconImageHref: link,
+                // Размеры метки.
+                iconImageSize: [25, 30],
+                // Смещение левого верхнего угла иконки относительно
+                // её "ножки" (точки привязки).
+                iconImageOffset: [-15, -20]
+            });
+        },
         startMap() {
-            ymaps.ready(function(){
+            ymaps.ready(() => {
                 var my_map = new ymaps.Map("map", {
                     center: [57.91605197, 60.11301396],
                     zoom: 10
@@ -23,22 +39,18 @@ export default {
                 }, {
                     searchControlProvider: 'yandex#search'
                 });
-                let myPlacemark = new ymaps.Placemark([57.91605197, 60.11301396], {
-                    hintContent: 'Собственный значок метки',
-                    balloonContent: 'Это красивая метка'
-                }, {
-                    // Опции.
-                    // Необходимо указать данный тип макета.
-                    iconLayout: 'default#image',
-                    // Своё изображение иконки метки.
-                    iconImageHref: '../assets/carousel.png',
-                    // Размеры метки.
-                    iconImageSize: [30, 42],
-                    // Смещение левого верхнего угла иконки относительно
-                    // её "ножки" (точки привязки).
-                    iconImageOffset: [-5, -38]
-                });
-                my_map.geoObjects.add(myPlacemark);
+                let toilet = this.placemark([57.91580680, 60.11238514], 'Туалет!', 'https://img.icons8.com/doodle/2x/toilet-paper.png');
+                let carousel = this.placemark([57.91639024, 60.11259783], 'Карусель!', 'https://img.icons8.com/doodle/2x/carousel--v1.png');
+                let carousel1 = this.placemark([57.91600770, 60.11237252], 'Карусель!', 'https://img.icons8.com/doodle/2x/carousel--v1.png');
+                let carousel2 = this.placemark([57.91678419, 60.11350171], 'Колесо обозрения!', 'https://img.icons8.com/doodle/2x/theme-park.png');
+                let cafe = this.placemark([57.91767200, 60.11373238], 'Кафе!', 'https://img.icons8.com/doodle/2x/cafe--v1.png');
+                let cafe1 = this.placemark([57.91864542, 60.11439756], 'Кафе!', 'https://img.icons8.com/doodle/2x/cafe--v1.png');
+                my_map.geoObjects.add(toilet);
+                my_map.geoObjects.add(carousel);
+                my_map.geoObjects.add(carousel1);
+                my_map.geoObjects.add(carousel2);
+                my_map.geoObjects.add(cafe);
+                my_map.geoObjects.add(cafe1);
 
             });
         }
