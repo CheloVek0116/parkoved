@@ -13,7 +13,7 @@ export default {
         startMap() {
             ymaps.ready(function(){
                 var my_map = new ymaps.Map("map", {
-                    center: [57.91740616, 60.11397683],
+                    center: [57.91605197, 60.11301396],
                     zoom: 10
                 }, {
                     restrictMapArea: [
@@ -23,6 +23,22 @@ export default {
                 }, {
                     searchControlProvider: 'yandex#search'
                 });
+                let myPlacemark = new ymaps.Placemark([57.91605197, 60.11301396], {
+                    hintContent: 'Собственный значок метки',
+                    balloonContent: 'Это красивая метка'
+                }, {
+                    // Опции.
+                    // Необходимо указать данный тип макета.
+                    iconLayout: 'default#image',
+                    // Своё изображение иконки метки.
+                    iconImageHref: '../assets/carousel.png',
+                    // Размеры метки.
+                    iconImageSize: [30, 42],
+                    // Смещение левого верхнего угла иконки относительно
+                    // её "ножки" (точки привязки).
+                    iconImageOffset: [-5, -38]
+                });
+                my_map.geoObjects.add(myPlacemark);
 
             });
         }
